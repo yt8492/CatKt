@@ -6,7 +6,7 @@ import kotlinx.cli.ArgType
 import kotlinx.cli.vararg
 
 fun main(args: Array<String>) {
-    val parser = ArgParser("main")
+    val parser = ArgParser("CatKt")
     val filePaths by parser.argument(ArgType.String, description = "Input file").vararg()
     parser.parse(args)
     filePaths.forEach { filePath ->
