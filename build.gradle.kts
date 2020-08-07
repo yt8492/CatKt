@@ -3,34 +3,36 @@ plugins {
 }
 repositories {
     mavenCentral()
+    maven("https://kotlin.bintray.com/kotlinx")
 }
 
 kotlin {
-    // For ARM, should be changed to iosArm32 or iosArm64
-    // For Linux, should be changed to e.g. linuxX64
-    // For MacOS, should be changed to e.g. macosX64
-    // For Windows, should be changed to e.g. mingwX64
     macosX64("macos") {
         binaries {
             executable {
-                // Change to specify fully qualified name of your application's entry point:
                 entryPoint = "com.yt8492.catkt.main"
-                // Specify command-line arguments, if necessary:
                 runTask?.args("")
             }
         }
         compilations["main"].enableEndorsedLibs = true
     }
+    jvm()
     sourceSets {
-        // Note: To enable common source sets please comment out 'kotlin.import.noCommonSourceSets' property
-        // in gradle.properties file and re-import your project in IDE.
+        val commonMain by getting {
+            dependencies {
+                implementation(kotlin("stdlib-common"))
+                implementation("org.jetbrains.kotlinx:kotlinx-cli:0.2.1")
+            }
+        }
         val macosMain by getting {
             dependencies {
                 implementation(kotlin("stdlib-common"))
             }
         }
-
-        val macosTest by getting {
+        val jvmMain by getting {
+            dependencies {
+                implementation(kotlin("stdlib-jdk8"))
+            }
         }
     }
 }

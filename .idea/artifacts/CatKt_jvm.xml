@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CatKt-jvm">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="CatKt-jvm.jar">
+      <element id="module-output" name="CatKt.jvmMain" />
+    </root>
+  </artifact>
+</component>

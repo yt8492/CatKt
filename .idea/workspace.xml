@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75c98694-476f-4b76-9f22-868d9e438124" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jvmMain/kotlin/com/yt8492/catkt/FileLineInputIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/CatKt.macosMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/CatKt.macosTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatKt.kexe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/macosMain/kotlin/com/yt8492/catkt/FileLineInputIterable.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/macosMain/kotlin/com/yt8492/catkt/FileLineInputIterator.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/macosMain/kotlin/com/yt8492/catkt/FileLineInputIterator.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/macosMain/kotlin/com/yt8492/catkt/Main.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatKt" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatKt" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatKt" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="CatKt" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KonanWorkspace" KOTLIN_NATIVE_HOME="$USER_HOME$/.konan/kotlin-native-macos-1.3.72">
+    <executables>
+      <executable TARGET_TYPE="macos_x64" TARGET="macos" BINARY="CatKt">
+        <target DEBUG="true" FILE="build/bin/macos/debugExecutable/CatKt.kexe" GRADLE_TASK=":linkDebugExecutableMacos" />
+        <target DEBUG="false" FILE="build/bin/macos/releaseExecutable/CatKt.kexe" GRADLE_TASK=":linkReleaseExecutableMacos" />
+      </executable>
+      <executable TARGET_TYPE="macos_x64" TARGET="macos" BINARY="test">
+        <target DEBUG="true" FILE="build/bin/macos/debugTest/test.kexe" GRADLE_TASK=":linkDebugTestMacos" />
+      </executable>
+    </executables>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bRsc2930oEBdP8NMsurCtgLIIS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Kotlin" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.CatKt [macosBinaries]">
+    <configuration default="true" type="GradleKonanAppRunConfiguration" factoryName="Application">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="macos.CatKt" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="macos" BINARY="CatKt" PROGRAM_PARAMS="&quot;&quot;" WORKING_DIR="$PROJECT_DIR$">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="macos.test" type="GradleKonanAppRunConfiguration" factoryName="Application" TARGET_TYPE="macos_x64" TARGET="macos" BINARY="test" WORKING_DIR="">
+      <method v="2">
+        <option name="com.jetbrains.konan.IdeaKonanBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CatKt [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CatKt [jvmJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jvmJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CatKt [jvmSourcesJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jvmSourcesJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CatKt [macosBinaries]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="macosBinaries" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CatKt [macosMainBinaries]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="macosMainBinaries" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.CatKt [clean]" />
+        <item itemvalue="Gradle.CatKt [jvmJar]" />
+        <item itemvalue="Gradle.CatKt [jvmSourcesJar]" />
+        <item itemvalue="Gradle.CatKt [macosMainBinaries]" />
+        <item itemvalue="Gradle.CatKt [macosBinaries]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75c98694-476f-4b76-9f22-868d9e438124" name="Default Changelist" comment="" />
+      <created>1588606315619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588606315619</updated>
+      <workItem from="1588606320283" duration="1719000" />
+      <workItem from="1588678709605" duration="2683000" />
+      <workItem from="1588692412395" duration="7024000" />
+      <workItem from="1589852286200" duration="1368000" />
+      <workItem from="1590673052704" duration="3025000" />
+      <workItem from="1592144631574" duration="623000" />
+      <workItem from="1596282946921" duration="50000" />
+      <workItem from="1596283120391" duration="4795000" />
+      <workItem from="1596377657380" duration="1190000" />
+      <workItem from="1596534555306" duration="7448000" />
+      <workItem from="1596764326045" duration="1368000" />
+      <workItem from="1596765758914" duration="205000" />
+      <workItem from="1596765984121" duration="418000" />
+      <workItem from="1596766425967" duration="280000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="415" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596764151233">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="415" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1596764151233" />
+    <state x="507" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1596764799940">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1596764799940" />
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1596282963836">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1596282963836" />
+    <state x="596" y="354" key="Github.ShareDialog" timestamp="1588607112454">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="596" y="354" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1588607112454" />
+    <state x="484" y="162" key="Github.UntrackedFilesDialog" timestamp="1588607116467">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="484" y="162" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1588607116467" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1596766402191">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596766402191" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1596766402190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596766402190" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1596766402190">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596766402190" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1596766402191">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596766402191" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1588606624573">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1588606624573" />
+  </component>
+</project>

@@ -8,7 +8,7 @@ import platform.posix.fclose
 import platform.posix.fgets
 import platform.posix.fopen
 
-class FileLineInputIterator(
+actual class FileLineInputIterator(
     filename: String
 ) : Iterator<String> {
 
